@@ -615,9 +615,7 @@ let input = document.getElementById('display')
 //apply focus 
 document.addEventListener('DOMContentLoaded',()=>{
 
-    setInterval(()=>{
-        input.focus()
-    },[])
+   input.focus()
     
 })
 //adding
@@ -639,7 +637,7 @@ function division(){
 function operation(){
     let output = eval(input.value)
     console.log(output)
-    input.value = eval(input.value)
+    input.value = output
 }
 //nine 
 function nine(){
@@ -681,7 +679,26 @@ function one(){
 function zero(){
     input.value += '0'
 }
+//point
+function point(){
+    input.value += '.'
+}
+//backremoving()
+
+
+function backremoving(){
+    console.log(input.value.length)
+     if(input.value.length == 0){
+        return;
+     }
+    else{
+        input.value = input.value.slice(0, -1);
+    }
+
+    console.log(input.value)
+}
 //clearing 
 function clearing(){
     input.value = ''
+
 }
