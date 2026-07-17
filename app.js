@@ -611,3 +611,77 @@ eval
 /*==================================== Question No 50 =========================================
 
 ======================================= Answer =====================================*/
+let input = document.getElementById('display')
+//apply focus 
+document.addEventListener('DOMContentLoaded',()=>{
+
+    setInterval(()=>{
+        input.focus()
+    },[])
+    
+})
+//adding
+function adding(){
+    input.value += '+'
+}
+//subtracting 
+function subtracting(){
+    input.value += '-'
+}
+//multiplying
+function multiplying(){
+    input.value += '*'
+}
+//division
+function division(){
+    input.value += '/'
+}
+function operation(){
+    let output = eval(input.value)
+    console.log(output)
+    input.value = eval(input.value)
+}
+//nine 
+function nine(){
+    input.value += '9'
+}
+//eight 
+function eight(){
+    input.value += '8'
+}
+//seven 
+function seven(){
+    input.value += '7'
+}
+//six 
+function six(){
+    input.value += '6'
+}
+//five 
+function five(){
+    input.value += '5'
+}
+//four 
+function four(){
+    input.value += '4'
+}
+//three
+function three(){
+    input.value += '3'
+}
+//two 
+function two(){
+    input.value += '2'
+}
+//one 
+function one(){
+    input.value += '1'
+}
+//zero
+function zero(){
+    input.value += '0'
+}
+//clearing 
+function clearing(){
+    input.value = ''
+}
