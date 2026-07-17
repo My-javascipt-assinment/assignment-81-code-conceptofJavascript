@@ -560,32 +560,54 @@ document.createElement and createTextNode and .appenChild
 // ul.appendChild(li);
 // console.log(ul)
 /*==================================== Question No 45 =========================================
-
+DOMContentLoaded
 ======================================= Answer =====================================*/
 // let input = document.getElementById('input')
 // document.addEventListener('DOMContentLoaded',()=>{
 //     input.focus()
 // })
 
-window.onload = ()=>{
-    document.getElementById('input').focus()
-}
+// window.onload = ()=>{
+//     document.getElementById('input').focus()
+// }
 /*==================================== Question No 46 =========================================
-
+location.reload()
 ======================================= Answer =====================================*/
-
+// setInterval(() => {
+//     window.location.reload()
+    
+// }, 500);
 /*==================================== Question No 47 =========================================
-
+trim()
 ======================================= Answer =====================================*/
-
+// let input = document.getElementById('input');
+// let btn = document.getElementById('btn');
+// function abc(){
+//     console.log(input.value.trim())
+//     console.log(input.value.length)
+// }
+// btn.addEventListener('click',abc) 
+// let str = ' i  am  dg    lear     ing ';
+// console.log( str,str.length)
+// // let clean = str.trim(); 
+// let clean = str.replace(/\s+/g,'')
+// console.log(clean, clean.length)
 /*==================================== Question No 48 =========================================
-
+false,'',0,undefined,null,NaN
 ======================================= Answer =====================================*/
-
+// if('u'){
+//     console.log('truthy values')
+// }
+// else{
+//     console.log('falsy value')
+// }
 /*==================================== Question No 49 =========================================
-
+eval
 ======================================= Answer =====================================*/
-
+// console.log(eval('hello + js'))
+// let code = '4 *2'
+// console.log(code)
+// console.log(eval(code))
 /*==================================== Question No 50 =========================================
 
 ======================================= Answer =====================================*/
