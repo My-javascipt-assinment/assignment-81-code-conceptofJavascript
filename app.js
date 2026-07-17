@@ -428,7 +428,7 @@ turnary operator / short of if/else statement
 /*==================================== Question No 34 =========================================
 array method
 ======================================= Answer =====================================*/
-let fruits = ['apple','mango','banana','orange','dates'];
+// let fruits = ['apple','mango','banana','orange','dates'];
 // let ans = fruits.push('dates') 
 // let ans = fruits.unshift('hlva') 
 // let ans = fruits.pop() 
@@ -436,52 +436,140 @@ let fruits = ['apple','mango','banana','orange','dates'];
 // let ans = fruits.splice(1,0,'sweet')
 // console.log(ans)
 // console.log(fruits)
-let cop = fruits.slice(1,4);
-console.log(cop)
+// let cop = fruits.slice(1,4);
+// console.log(cop)
 /*==================================== Question No 35 =========================================
-
+variable declaration vs initialization
 ======================================= Answer =====================================*/
-
+// let age;
+// console.log(age)
+// let city = 'karachi'
 /*==================================== Question No 36 =========================================
-
+null vs undefined
 ======================================= Answer =====================================*/
-
+// let age;
+// let name = null;
+// console.log(age)
+// console.log(name)
 /*==================================== Question No 37 =========================================
-
+new Date topic
 ======================================= Answer =====================================*/
-
+// let current = new Date();
+// console.log(current.getTime())
+// console.log(current.getHours())
+// console.log(current.getMinutes())
+// console.log(current.getSeconds())
+// console.log(current.getMilliseconds())
+// console.log(current.getMonth())
+// console.log(current.getFullYear())
+// current.setHours(2)
+// current.setFullYear(1929)
+// console.log(current)
 /*==================================== Question No 38 =========================================
-
+post and pre increment and decrement
 ======================================= Answer =====================================*/
+// let count = 0;
 
+// console.log(count++)
+// console.log(count++)
+
+//pre 
+// console.log(++count);
+// console.log(++count)
+
+// console.log(count--)
+// console.log(count--)
+
+// console.log(--count)
+// console.log(--count)
 /*==================================== Question No 39 =========================================
 
 ======================================= Answer =====================================*/
+//data types 
+//primitive data type 
+//the data have single value is called primitive data type 
+// //1. number 
+// let num = 34444;
+// //2. string 
+// let str = 'hello';
+// //3. boolean 
+// let isAble = false;
+// //4. undefined 
+// let age;
+// //5. null 
+// let city = null;
+// //6.bigInt 
+// let num = 789637838963633n;
+// //7.symbol 
+// let sym = Symbol('id')
 
+//non-primitiv data type 
+// have multiple values like array or object is called non-primitive data type
 /*==================================== Question No 40 =========================================
-
+arithemetic operators
 ======================================= Answer =====================================*/
-
+// + ,-,*,/,%,** are called arithemetic operators
 /*==================================== Question No 41 =========================================
-
+replace and replaceAll()
 ======================================= Answer =====================================*/
-
+// let str = 'i love js, study js in interesting'
+//   let ans  = str.replace('js','javascript');
+//    console.log(str)
+//    console.log(ans)
+//    let all = str.replaceAll('js','programming language');
+//    console.log(all)
+// let arr = ['apple','mango','apple','banana','apple']
+//  let ar = arr.join(' ');
+//  console.log(ar)
+//  let need = ar.replaceAll('apple','carrot');
+//  console.log(need)
+//  let final = need.split(' ');
+//  console.log(final)
 /*==================================== Question No 42 =========================================
-
+indexof /lastindexof
 ======================================= Answer =====================================*/
+// let arr = ['apple','mango','apple','banana','apple'] 
+// console.log(arr.indexOf('apple'))
+// console.log(arr.lastIndexOf('apple'))
 
+// let str = 'i am learing js';
+// let ar = str.split(' ')
+// console.log(ar)
+// let ind = ar.indexOf('learing')
+// console.log(ind)
 /*==================================== Question No 43 =========================================
-
+querySelector and querySelectorAll
 ======================================= Answer =====================================*/
-
+// let one = document.querySelector('p')
+// console.log(one)
+// one.style.color = 'red'
+// let all = document.querySelectorAll('p');
+// console.log(all)
+// for(let i = 0;i < all.length;i++){
+//     console.log(all[i])
+//     all[i].style.color = 'green'
+// }
 /*==================================== Question No 44 =========================================
-
+document.createElement and createTextNode and .appenChild
 ======================================= Answer =====================================*/
-
+// let ul = document.getElementById('ul');
+// console.log(ul)
+// let li = document.createElement('li');
+// let liText = document.createTextNode('i am li')
+// li.appendChild(liText);
+// ul.appendChild(li);
+// console.log(ul)
 /*==================================== Question No 45 =========================================
 
 ======================================= Answer =====================================*/
+// let input = document.getElementById('input')
+// document.addEventListener('DOMContentLoaded',()=>{
+//     input.focus()
+// })
 
+window.onload = ()=>{
+    document.getElementById('input').focus()
+}
 /*==================================== Question No 46 =========================================
 
 ======================================= Answer =====================================*/
